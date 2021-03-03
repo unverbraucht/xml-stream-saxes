@@ -8,7 +8,7 @@
     "saxes"
   ],
   "license": "MIT",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "author": "AssistUnion <info@assistunion.com>",
   "maintainers": [
     "Max S. Ivanov <maxsivanov@gmail.com>"
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/maxsivaniv/xml-stream-saxes.git"
+    "url": "git://github.com/maxsivanov/xml-stream-saxes.git"
   },
   "dependencies": {
     "iconv": "^2.1.4",
