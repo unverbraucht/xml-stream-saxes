@@ -1,158 +1,141 @@
 [
     {
         "$children": [
-            "\n",
-            "    1 ",
+            "\n    1 ",
             {
                 "$children": [
                     "one"
                 ],
-                "$name": "subitem",
-                "$text": "one"
+                "$text": "one",
+                "$name": "subitem"
             },
-            "\n",
-            "    2 ",
+            "\n    2 ",
             {
                 "$children": [
                     "two"
                 ],
-                "$name": "subitem",
-                "$text": "two"
+                "$text": "two",
+                "$name": "subitem"
             },
-            "\n",
-            "    3 ",
+            "\n    3 ",
             {
                 "$children": [
                     "three"
                 ],
-                "$name": "subitem",
-                "$text": "three"
+                "$text": "three",
+                "$name": "subitem"
             },
-            "\n",
-            "  "
+            "\n  "
         ],
-        "$name": "item",
-        "$text": "\n    1 \n     2 \n     3 \n  ",
         "subitem": [
             {
                 "$children": [
                     "one"
                 ],
-                "$name": "subitem",
-                "$text": "one"
+                "$text": "one",
+                "$name": "subitem"
             },
             {
                 "$children": [
                     "two"
                 ],
-                "$name": "subitem",
-                "$text": "two"
+                "$text": "two",
+                "$name": "subitem"
             },
             {
                 "$children": [
                     "three"
                 ],
-                "$name": "subitem",
-                "$text": "three"
+                "$text": "three",
+                "$name": "subitem"
             }
-        ]
+        ],
+        "$text": "\n    1  \n    2  \n    3 \n  ",
+        "$name": "item"
     },
     {
         "$children": [
-            "\n",
-            "    4 ",
+            "\n    4 ",
             {
                 "$children": [
                     "four"
                 ],
-                "$name": "subitem",
-                "$text": "four"
+                "$text": "four",
+                "$name": "subitem"
             },
-            "\n",
-            "    5 ",
+            "\n    5 ",
             {
                 "$children": [
-                    "\n",
-                    "      five",
-                    "\n",
-                    "      ",
+                    "\n      five\n      ",
                     {
                         "$children": [
                             "A"
                         ],
-                        "$name": "letter",
-                        "$text": "A"
+                        "$text": "A",
+                        "$name": "letter"
                     },
-                    "\n",
-                    "      ",
+                    "\n      ",
                     {
                         "$children": [
                             "B"
                         ],
-                        "$name": "letter",
-                        "$text": "B"
+                        "$text": "B",
+                        "$name": "letter"
                     },
-                    "\n",
-                    "    "
+                    "\n    "
                 ],
-                "$name": "subitem",
-                "$text": "\n      five\n      \n      \n    ",
                 "letter": {
                     "$children": [
                         "B"
                     ],
-                    "$name": "letter",
-                    "$text": "B"
-                }
+                    "$text": "B",
+                    "$name": "letter"
+                },
+                "$text": "\n      five\n      \n      \n    ",
+                "$name": "subitem"
             },
-            "\n",
-            "  "
+            "\n  "
         ],
-        "$name": "item",
-        "$text": "\n    4 \n     5 \n  ",
         "subitem": [
             {
                 "$children": [
                     "four"
                 ],
-                "$name": "subitem",
-                "$text": "four"
+                "$text": "four",
+                "$name": "subitem"
             },
             {
                 "$children": [
-                    "\n",
-                    "      five",
-                    "\n",
-                    "      ",
+                    "\n      five\n      ",
                     {
                         "$children": [
                             "A"
                         ],
-                        "$name": "letter",
-                        "$text": "A"
+                        "$text": "A",
+                        "$name": "letter"
                     },
-                    "\n",
-                    "      ",
+                    "\n      ",
                     {
                         "$children": [
                             "B"
                         ],
-                        "$name": "letter",
-                        "$text": "B"
+                        "$text": "B",
+                        "$name": "letter"
                     },
-                    "\n",
-                    "    "
+                    "\n    "
                 ],
-                "$name": "subitem",
-                "$text": "\n      five\n      \n      \n    ",
                 "letter": {
                     "$children": [
                         "B"
                     ],
-                    "$name": "letter",
-                    "$text": "B"
-                }
+                    "$text": "B",
+                    "$name": "letter"
+                },
+                "$text": "\n      five\n      \n      \n    ",
+                "$name": "subitem"
             }
-        ]
+        ],
+        "$text": "\n    4  \n    5 \n  ",
+        "$name": "item"
     }
 ]
