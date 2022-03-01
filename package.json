@@ -8,10 +8,11 @@
     "saxes"
   ],
   "license": "MIT",
-  "version": "0.4.9",
+  "version": "0.5.0",
   "author": "AssistUnion <info@assistunion.com>",
   "maintainers": [
-    "Max S. Ivanov <maxsivanov@gmail.com>"
+    "Max S. Ivanov <maxsivanov@gmail.com>",
+    "Kevin Read <me@kevin-read.com>"
   ],
   "scripts": {
     "test": "mocha tests"
@@ -21,7 +22,7 @@
     "url": "git://github.com/maxsivanov/xml-stream-saxes.git"
   },
   "dependencies": {
-    "iconv": "^2.1.4",
+    "iconv-lite": "^0.6.3",
     "readable-stream": "^1.0.31",
     "saxes": "^5.0.1"
   },
@@ -30,6 +31,6 @@
   },
   "main": "index",
   "devDependencies": {
-    "mocha": "^1.21.4"
+    "mocha": "^9.2.1"
   }
 }
